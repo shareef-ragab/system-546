@@ -110,6 +110,7 @@
     "url": "https://discord.gg/F8CJ3e8"
   },
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   }
 }
+
