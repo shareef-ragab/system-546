@@ -1,13 +1,14 @@
 {
-  "name": "NameChanger",
-  "version": "1.0.0",
-  "description": "",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "mouatz2003",
-  "license": "ISC",
   "dependencies": {
     "anti-spam": "^0.2.7",
     "array-sort": "^1.0.0",
@@ -104,13 +105,18 @@
     "electron-settings": "^4.0.1"
   },
   "engines": {
-    "node": "10.x"
+    "node": "8.x"
   },
   "repository": {
-    "url": "https://discord.gg/F8CJ3e8"
+    "url": "https://glitch.com/edit/#!/hello-express"
   },
-  "scripts": {
-    "start": "node index.js"
-  }
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
+
+
 
