@@ -26,14 +26,7 @@ load();
 lastinvites = { };
 
 
-var mysql = require('sync-mysql');
 
-var sql = new mysql({
-	host     : 'localhost',
-  user     : 'root',
-  password : 'pBGWvw8pRt_U7vv(B3}$>nf%?"q',
-  database : 'my_db'
-});
 
 client.on('message', message => {
    if(message.author.bot) return;
