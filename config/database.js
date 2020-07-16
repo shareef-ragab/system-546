@@ -3,7 +3,7 @@ var data = {
 	host     : '',
   user     : '',
   password : '',
-  database : ''
+  database : '',
     "charset": ""
 },
  nosql: { 
