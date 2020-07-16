@@ -1,9 +1,9 @@
 var data = { 
  mysql: { 
-	host     : '',
-  user     : '',
-  password : '',
-  database : '',
+    "host": "",
+    "user": "",
+    "password":  "",
+    "database": "",
     "charset": ""
 },
  nosql: { 
